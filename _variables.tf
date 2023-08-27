@@ -3,10 +3,10 @@ variable "enabled" {
   default = true
 }
 
-variable "cluster_name" {
-  type        = string
-  description = "The name of the EKS cluster"
-}
+#variable "cluster_name" {
+#  type        = string
+#  description = "The name of the EKS cluster"
+#}
 
 variable "cluster_identity_oidc_issuer" {
   type        = string
