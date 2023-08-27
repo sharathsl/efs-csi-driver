@@ -6,6 +6,7 @@ variable "enabled" {
 variable "cluster_name" {
   type        = string
   description = "The name of the EKS cluster"
+  default = "petclinic-eks"
 }
 
 variable "cluster_identity_oidc_issuer" {
